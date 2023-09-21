@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="Anastasiia Tuhai"/>
+    <title>Teachinder</title>
+</head>
+<body>
+    <header>
+        <h1>Teachinder</h1>
+        <form>
+             <input type="search" name="Name, note or age to search" />
+             <button type="submit" id="searchTeacherButton">Search</button>
+        </form>
+    </header>
+
+    <main>
+        <nav>
+            <ul>
+                <li><a href="#teachers">Teachers</a></li>
+                <li><a href="#statistics">Statistics</a></li>
+                <li><a href="#favorites">Favorites</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+        <button id="addTeacherButton">Add Teacher</button>
+        <hr/>
+
+        <section id="teachers">
+            <h1>Top Teachers</h1>
+            <section class="teacher-filters">
+                <form>
+                    <section>
+                        <label for="ageFilter">Age</label>
+                        <select name="age"> 
+                            <option selected>18-31</option>
+                            <option>31-44</option>
+                            <option>45+</option>
+                        </select>
+                    </section>
+
+                    <section>
+                        <label for="regionFilter">Region</label>
+                        <select name="region"> 
+                            <option selected>Europe</option>
+                            <option>Asia</option>
+                            <option>America</option>
+                            <option>Africa</option>
+                            <option>Australia and Oceania</option>
+                        </select>
+                    </section>
+                    
+                    <section>
+                        <label for="sexFilter">Sex</label>
+                        <select name="sex"> 
+                            <option selected>Male</option>
+                            <option>Female</option>
+                        </select>
+                    </section>
+
+                    <section>
+                        <input type="checkbox" id="withPhoto" name="withPhoto"/>
+                        <label for="withPhoto">Only with photo</label>
+                    </section>
+                    
+
+                    <section>
+                        <input type="checkbox" name="onlyFavorites" value="Car"/>
+                        <label for="onlyFavorites">Only favorites</label>
+                    </section>
+                    
+                </form>
+
+            </section>
+
+            <section class="top-teachers">
+                <figure class="teacher-figure">
+                    <div class="teacher-photo">
+                        <img src="images/teacher-man-ukr.jpg" alt="Teacher`s photo">
+                    </div>
+                    <figcaption>
+                        <p class="teacher-name">Ihor Tkachuk</p>
+                        <p class="teacher-subject">Chemistry</p>
+                        <p class="teacher-country">Ukraine</p>
+                    </figcaption>
+                </figure>
+            </section>
+
+            <section class="top-teachers">
+                <figure class="teacher-figure">
+                    <div class="teacher-photo">
+                        <img src="images/teacher-man-india.jpg" alt="Teacher`s photo">
+                    </div>
+                    <figcaption>
+                        <p class="teacher-name">Pragg Rameshbabu</p>
+                        <p class="teacher-subject">Chess</p>
+                        <p class="teacher-country">India</p>
+                    </figcaption>
+                </figure>
+            </section>
+
+            <section class="top-teachers">
+                <figure class="teacher-figure">
+                    <div class="teacher-photo">
+                        <img src="images/teacher-wowan-denmark.jpg" alt="Teacher`s photo">
+                    </div>
+                    <figcaption>
+                        <p class="teacher-name">Floor Jansen</p>
+                        <p class="teacher-subject">Vocal</p>
+                        <p class="teacher-country">Denmark</p>
+                    </figcaption>
+                </figure>
+            </section>
+
+            <section class="top-teachers">
+                <figure class="teacher-figure">
+                    <div class="teacher-photo">
+                        <img src="images/teacher-man-belgium.jpg" alt="Teacher`s photo">
+                    </div>
+                    <figcaption>
+                        <p class="teacher-name">John Burke</p>
+                        <p class="teacher-subject">Computer Science</p>
+                        <p class="teacher-country">Belgium</p>
+                    </figcaption>
+                </figure>
+            </section>
+
+            <section class="top-teachers">
+                <figure class="teacher-figure">
+                    <div class="teacher-photo">
+                        <img src="images/teacher-woman-china.jpg" alt="Teacher`s photo">
+                    </div>
+                    <figcaption>
+                        <p class="teacher-name">Ari Tang</p>
+                        <p class="teacher-subject">Biology</p>
+                        <p class="teacher-country">China</p>
+                    </figcaption>
+                </figure>
+            </section>
+
+            <section class="top-teachers">
+                <figure class="teacher-figure">
+                    <div class="teacher-photo">
+                        <img src="images/teacher-woman-uk.jpg" alt="Teacher`s photo">
+                    </div>
+                    <figcaption>
+                        <p class="teacher-name">Rachel Andrew</p>
+                        <p class="teacher-subject">Medicine</p>
+                        <p class="teacher-country">UK</p>
+                    </figcaption>
+                </figure>
+            </section>            
+
+            <section class="top-teachers">
+                <figure class="teacher-figure">
+                    <div class="teacher-photo">
+                        <span class="teacher-initials">A.M</span>
+                    </div>
+                    <figcaption>
+                        <p class="teacher-name">Anna Muzychuk</p>
+                        <p class="teacher-subject">Chess</p>
+                        <p class="teacher-country">Belarus</p>
+                    </figcaption>
+                </figure>
+            </section>
+
+            <section class="top-teachers">
+                <figure class="teacher-figure">
+                    <div class="teacher-photo">
+                        <span class="teacher-initials">R.L</span>
+                    </div>
+                    <figcaption>
+                        <p class="teacher-name">Radoslaw Ljuboevic</p>
+                        <p class="teacher-subject">Physics</p>
+                        <p class="teacher-country">Poland</p>
+                    </figcaption>
+                </figure>
+            </section>
+
+        </section>
+        <hr/>
+
+
+    </main>
+</body>
+</html>
